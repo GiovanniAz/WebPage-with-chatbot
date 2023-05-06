@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina web basica</title>
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1585939-7JXA96MSDC9F430Q/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+
+</head>
+
+
+<body>
+
+    <div class="head">
+
+        <div class="logo">
+            <a href="#">Stylish</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Conacto</a>
+            <a href="#">Productos</a>
+            <a href="#">Precio</a>
+        </nav>
+
+    </div>
+
+    <header class="content header">
+        <h2 class="title">Viste con estilo, viste con Stylish</h2>
+
+        <div class="btn-home">
+            <a href="#" class="btn">Saber mas</a>
+        </div>
+    </header>
+
+    <section class="content sau">
+
+        <h2 class="title2">Productos</h2>
+       
+        
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa fa-male"></i>
+                <h3>Hombes</h3>
+                <p>Encuentra camisas elegantes, pantalones casuales, chaquetas de cuero, trajes de vestir y mucho más.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-female"></i>
+                <h3>Mujeres</h3>
+                <p>Encuentra blusas, pantalones, faldas, chaquetas, accesorios y mucho más, todo de la mejor calidad y con un toque de estilo único.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-child"></i>
+                <h3>Niños/h3>
+                <p>Encuentra camisetas, pantalones, sudaderas, chaquetas y mucho más, todo en una amplia variedad de diseños y tallas.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="content about">
+
+        <h2 class="title2">Nosotros</h2>
+        <p>Bienvenidos/as a nuestra tienda en línea de ropa elegante para hombres, mujeres y niños. Ofrecemos una amplia variedad de prendas de alta calidad y durabilidad, diseñadas para satisfacer las necesidades de aquellos que buscan un estilo elegante y sofisticado.
+            
+            En nuestra tienda, encontrarás desde trajes de vestir y vestidos hasta chaquetas, pantalones y accesorios elegantes. Todos nuestros productos están confeccionados con los mejores materiales, garantizando una excelente calidad y comodidad para nuestros clientes.
+            
+            Nos enorgullece ofrecer la mejor calidad en ropa elegante a precios accesibles, para que todos puedan disfrutar de prendas de alta calidad sin tener que gastar una fortuna. Además, contamos con una gran variedad de tallas y estilos para que puedas encontrar lo que necesitas para ti y tu familia.
+        </p>
+
+        <a href="#" class="btn">Conocenos</a>
+
+    </section>
+
+    <section class="content price">
+
+        <article class="contain">
+            
+            
+
+
+        </article>
+
+    </section>
+
+<div class="container">
+    <div class="column">
+      <h2>Colecciones</h2>
+      <ul>
+        <li>Mujer</li>
+        <li>Hombre</li>
+        <li>Divided</li>
+        <li>Bebé</li>
+        <li>Niños</li>
+      </ul>
+    </div>
+    
+    <div class="column">
+      <h2>Información Corporativa</h2>
+      <ul>
+        <li>Trabajar en Stylish</li>
+        <li>Acerca de Stylish</li>
+        <li>Responsabilidad social</li>
+      </ul>
+    </div>
+    
+    <div class="column">
+      <h2>Ayuda</h2>
+      <ul>
+        <li>Servicio al cliente</li>
+        <li>Mi cuenta</li>
+        <li>Nuestras tiendas</li>
+        <li>Términos y condiciones</li>
+        <li>Contacto</li>
+        <li>Tarjetas de regalo</li>
+      </ul>
+    </div>
+    
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      
+      <div class="logo">
+        <img src="img/logo.png" alt="Stylish logo">
+      </div>
+      
+  
+ 
+  
+  
+
+</body>
+</html>
